@@ -1,0 +1,10 @@
+cc ../src/echo.c -o echo
+cc ../src/exit.c -o exit
+cc ../src/get.c -o get
+cc ../src/join.c -o join
+cc ../src/math.c -lm -o math
+cc ../src/newline.c -o newline
+cc ../src/pass.c -o pass
+cc ../src/set.c -o set
+cc ../src/unset.c -o unset
+cc ../src/shell.c -lreadline -o shell
