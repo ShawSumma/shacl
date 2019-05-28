@@ -1,0 +1,11 @@
+set a 0
+set b 1
+set rem 30
+while {get rem} {
+    echo [get a]
+    newline
+    set rem [math sub [get rem] 1]
+    set c [math add [get a] [get b]]
+    set a [get b]
+    set b [get c]
+}

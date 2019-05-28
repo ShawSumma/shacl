@@ -1,0 +1,13 @@
+cc ../src/echo_cmd.c -o echo
+cc ../src/exit_cmd.c -o exit
+cc ../src/get_cmd.c -o get
+cc ../src/join_cmd.c -o join
+cc ../src/math_cmd.c -lm -o math
+cc ../src/newline_cmd.c -o newline
+cc ../src/pass_cmd.c -o pass
+cc ../src/set_cmd.c -o set
+cc ../src/unset_cmd.c -o unset
+
+cc ../src/if_cmd.c ../src/shell.c -lreadline -o if
+cc ../src/while_cmd.c ../src/shell.c -lreadline -o while
+cc ../src/shell_cmd.c ../src/shell.c -lreadline -o shell

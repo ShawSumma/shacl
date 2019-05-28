@@ -1,0 +1,8 @@
+set x 1000
+set total 0
+while {get x} {
+    set total [math add [get total] [get x]]
+    set x [math sub [get x] 1]
+    join [get x] [newline]
+}
+unset x total
